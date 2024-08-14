@@ -1,0 +1,49 @@
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.menu1{
+    display: flex;
+    gap: 40px;
+    margin-left: 20px;
+    color: black;
+}
+i{
+    margin-top: -30px;
+}
+p{
+    margin-left: 155px;
+    margin-top: -32px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu2{
+    display: flex;
+    gap: 38px;
+    margin-left: 1180px;
+    margin-top: 20px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.book{
+    font-size: 15px;
+    margin-left: -35px;
+}
+.menu3{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    font-size: 15px;
+    padding-bottom: 25px;
+    
+}
+a:hover{
+    border-bottom: 2px solid rgba(104, 212, 212, 0.716);
+}
+.new_arrivals{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+

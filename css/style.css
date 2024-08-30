@@ -11,23 +11,18 @@
 i{
     margin-top: -30px;
 }
-p{
-    margin-left: 155px;
-    margin-top: -32px;
-    font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 .menu2{
     display: flex;
     gap: 38px;
     margin-left: 1180px;
-    margin-top: 20px;
+    margin-top: 5px;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .book{
     font-size: 15px;
-    margin-left: -35px;
+    margin-top: -30px;
+    margin-left: -30px;
 }
 .menu3{
     display: flex;
@@ -36,14 +31,158 @@ p{
     margin-top: 10px;
     font-size: 15px;
     padding-bottom: 25px;
-    
 }
+
 a:hover{
     border-bottom: 2px solid rgba(104, 212, 212, 0.716);
+    font-weight: 500;
 }
 .new_arrivals{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 80px;
+    margin-top: 35px;
 }
+.button2{
+    border: 1px solid #000000;
+    padding: 8px;
+}
+h2{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  display: flex;
+  justify-content: center;
+}
+h2{
+    margin-top: 40px;
+}
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+  }
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(104, 212, 212, 0.716);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
 
+  .cta:hover .hover-underline-animation:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .button1{
+    display: flex;
+    justify-content: center;
+    margin-top:15px;
+  }
+ a{
+    text-decoration: none;
+ }
+ span{
+    text-decoration: none;
+ }
+.banners{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.name1_banners h2{
+    position: relative;
+    margin-right: 650px;
+    margin-top: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin-bottom: 5px;
+}
+ .name2_banners h2{
+    position: relative;
+    margin-left: 650px;
+    margin-top: -40px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin-bottom: 5px;
+}
+.link1{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-left: 350px;
+}
+.link2{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-left: 580px;
+}
+.category h2{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+p{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 570px;
+    margin-top: -110px;
+}
+.shop_category{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}

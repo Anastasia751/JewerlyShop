@@ -15,7 +15,7 @@ i{
     display: flex;
     gap: 38px;
     margin-left: 1180px;
-    margin-top: 5px;
+    margin-top: -10px;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -28,7 +28,7 @@ i{
     display: flex;
     justify-content: space-evenly;
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 15px;
     padding-bottom: 25px;
 }
@@ -493,3 +493,48 @@ p{
   justify-content: center;
   margin-top: 40px;
 }
+
+.input_form{
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 25px;
+}
+.form_btn{
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 13px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+  cursor: pointer;
+}
+.form_btn:active{
+  background-color: rgba(124, 120, 120, 0.321);
+}
+.form_btn:hover{
+background-color: rgba(124, 120, 120, 0.321);
+}
+.new_arrivals{
+  width: 1450px;
+  display: flex;
+  overflow-x: scroll;
+}
+.new_arrivals .arrivals{
+  width: 100%;
+  display: flex;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+}
+.new_arrivals::-webkit-scrollbar{
+  display: none;
+}
+.controls{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

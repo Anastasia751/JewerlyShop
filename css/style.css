@@ -1,52 +1,60 @@
-.logo{
-    display: flex;
-    justify-content: center;
-}
-.menu1{
-    display: flex;
-    gap: 40px;
-    margin-left: 20px;
-    color: black;
-}
-i{
-    margin-top: -30px;
-}
-.menu2{
-    display: flex;
-    gap: 38px;
-    margin-left: 1180px;
-    margin-top: -10px;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.book{
-    font-size: 15px;
-    margin-top: -30px;
-    margin-left: -30px;
-}
-.menu3{
-    display: flex;
-    justify-content: space-evenly;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 30px;
-    font-size: 15px;
-    padding-bottom: 25px;
+.logo {
+  display: flex;
+  justify-content: center;
 }
 
-.menu3 a:hover{
-    border-bottom: 2px solid rgba(104, 212, 212, 0.716);
-    font-weight: 500;
+.menu1 {
+  display: flex;
+  gap: 40px;
+  margin-left: 20px;
+  color: black;
 }
-.new_arrivals{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 35px;
+
+i {
+  margin-top: -30px;
 }
-.button2{
-    border: 1px solid #000000;
-    padding: 8px;
+
+.menu2 {
+  display: flex;
+  gap: 38px;
+  margin-left: 1180px;
+  margin-top: -10px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-h2{
+
+.book {
+  font-size: 15px;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.menu3 {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 30px;
+  font-size: 15px;
+  padding-bottom: 25px;
+}
+
+.menu3 a:hover {
+  border-bottom: 2px solid rgba(104, 212, 212, 0.716);
+  font-weight: 500;
+}
+
+.new_arrivals {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
+}
+
+.button2 {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+h2 {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -55,151 +63,168 @@ h2{
   display: flex;
   justify-content: center;
 }
-h2{
-    margin-top: 40px;
-}
-.cta {
-    border: none;
-    background: none;
-    cursor: pointer;
-  }
-  
-  .cta a {
-    padding-bottom: 7px;
-    letter-spacing: 4px;
-    font-size: 14px;
-    padding-right: 15px;
-    text-transform: uppercase;
-  }
-  
-  .cta svg {
-    transform: translateX(-8px);
-    transition: all 0.3s ease;
-  }
-  
-  .cta:hover svg {
-    transform: translateX(0);
-  }
-  
-  .cta:active svg {
-    transform: scale(0.9);
-  }
-  
-  .hover-underline-animation {
-    position: relative;
-    color: black;
-    padding-bottom: 20px;
-  }
-  .hover-underline-animation:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(104, 212, 212, 0.716);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
 
-  .cta:hover .hover-underline-animation:after{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-  
-  .button1{
-    display: flex;
-    justify-content: center;
-    margin-top:15px;
-  }
- a{
-    text-decoration: none;
- }
- span{
-    text-decoration: none;
- }
-.banners{
-    display:flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
+h2 {
+  margin-top: 40px;
 }
-.name1_banners h2{
-    position: relative;
-    margin-right: 650px;
-    margin-top: 15px;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 550;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-    margin-bottom: 5px;
+
+.cta {
+  border: none;
+  background: none;
+  cursor: pointer;
 }
- .name2_banners h2{
-    position: relative;
-    margin-left: 650px;
-    margin-top: -40px;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 550;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-    margin-bottom: 5px;
+
+.cta a {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
 }
-.link1{
-    text-decoration: none;
-    color: #000000;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    margin-left: 350px;
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
 }
-.link1:hover{
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(104, 212, 212, 0.716);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  text-decoration: none;
+}
+
+.banners {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.name1_banners h2 {
+  position: relative;
+  margin-right: 650px;
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin-bottom: 5px;
+}
+
+.name2_banners h2 {
+  position: relative;
+  margin-left: 650px;
+  margin-top: -40px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin-bottom: 5px;
+}
+
+.link1 {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin-left: 350px;
+}
+
+.link1:hover {
   border-bottom: 2px solid rgba(104, 212, 212, 0.716);
   font-weight: 500;
 }
-.link2{
-    text-decoration: none;
-    color: #000000;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    margin-left: 580px;
+
+.link2 {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin-left: 580px;
 }
-.link2:hover{
+
+.link2:hover {
   border-bottom: 2px solid rgba(104, 212, 212, 0.716);
   font-weight: 500;
 }
-.category h2{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+
+.category h2 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
-p{
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    margin-left: 570px;
-    margin-top: -110px;
+
+p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-left: 570px;
+  margin-top: -110px;
 }
-.shop_category{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 35px;
-    text-decoration: none;
+
+.shop_category {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
+  text-decoration: none;
 }
-.shop_category img{
-    border-bottom: none;
-    text-decoration: none;
+
+.shop_category img {
+  border-bottom: none;
+  text-decoration: none;
 }
-.necklaces_pendants h4{
+
+.necklaces_pendants h4 {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -209,29 +234,8 @@ p{
   font-size: 15px;
   margin-top: 5px;
 }
-.rings h4{
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-  margin-top: 5px;
-}
-.earrings h4{
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-  margin-top: 5px;
-}
-.bracelets h4{
+
+.rings h4 {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -242,7 +246,8 @@ p{
   font-size: 15px;
   margin-top: 5px;
 }
-.watches h4{
+
+.earrings h4 {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -253,7 +258,8 @@ p{
   font-size: 15px;
   margin-top: 5px;
 }
-.home h4{
+
+.bracelets h4 {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -264,26 +270,54 @@ p{
   font-size: 15px;
   margin-top: 5px;
 }
-.icons h2{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+
+.watches h4 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin-top: 5px;
 }
-.icons{
-    margin-bottom: 30px;
+
+.home h4 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin-top: 5px;
 }
-.icons p{
+
+.icons h2 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.icons {
+  margin-bottom: 30px;
+}
+
+.icons p {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
-.love_banner{
+
+.love_banner {
   background-image: url(/image/banner4.webp);
   width: 100%;
   height: 530px;
@@ -291,7 +325,8 @@ p{
   position: relative;
   background-size: cover;
 }
-.love_banner h2{
+
+.love_banner h2 {
   padding-top: 140px;
   padding-left: 750px;
   font-family: "Open Sans", sans-serif;
@@ -301,7 +336,8 @@ p{
   font-variation-settings: "wdth" 100;
   color: white;
 }
-.love_text h4{
+
+.love_text h4 {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -313,20 +349,23 @@ p{
   margin-left: 750px;
   font-size: 15px;
 }
-.love_banner a{
-    text-decoration: none;
-    color: white;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    margin-left: 1005px;
+
+.love_banner a {
+  text-decoration: none;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin-left: 1005px;
 }
-.link3:hover{
+
+.link3:hover {
   border-bottom: 2px solid rgba(104, 212, 212, 0.716);
   font-weight: 500;
 }
-.experience h2{
+
+.experience h2 {
   display: flex;
   justify-content: center;
   font-family: "Open Sans", sans-serif;
@@ -337,13 +376,15 @@ p{
   margin-top: 80px;
   font-size: 25px;
 }
-.pic_experiense{
+
+.pic_experiense {
   display: flex;
   justify-content: space-around;
   gap: 10px;
   text-decoration: none;
 }
-.pic_experiense h5{
+
+.pic_experiense h5 {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -354,30 +395,35 @@ p{
   margin-bottom: 25px;
   font-size: 13px;
 }
-.pic_experiense h4{
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align: center;
-    font-size: 15px;
-    margin-top: -10px;
+
+.pic_experiense h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  font-size: 15px;
+  margin-top: -10px;
 }
-.pic_experiense a{
-    text-decoration: none;
-    color: #000000;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 15px;
+
+.pic_experiense a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
 }
-.complimentary{
+
+.complimentary {
   text-align: center;
 }
-.link4:hover{
+
+.link4:hover {
   border-bottom: 2px solid rgba(104, 212, 212, 0.716);
   font-weight: 500;
 }
-.service_text{
+
+.service_text {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -386,27 +432,34 @@ p{
   margin-top: -10px;
   margin-bottom: 70px;
 }
-.service{
+
+.service {
   text-align: center;
 }
-.link5:hover{
+
+.link5:hover {
   border-bottom: 2px solid rgba(104, 212, 212, 0.716);
   font-weight: 500;
 }
-.book_appointment{
+
+.book_appointment {
   text-align: center;
 }
-.link6:hover{
+
+.link6:hover {
   border-bottom: 2px solid rgba(104, 212, 212, 0.716);
   font-weight: 500;
 }
-.box{
+
+.box {
   text-align: center;
 }
-.link7:hover{
+
+.link7:hover {
   border-bottom: 2px solid rgba(104, 212, 212, 0.716);
   font-weight: 500;
 }
+
 .input {
   position: relative;
   max-width: 190px;
@@ -462,7 +515,7 @@ p{
   outline: none;
 }
 
-.input:focus + .input-helper {
+.input:focus+.input-helper {
   visibility: visible;
   transform: translateY(0rem);
 }
@@ -470,7 +523,8 @@ p{
 .input:focus::placeholder {
   visibility: hidden;
 }
-.follow{
+
+.follow {
   display: flex;
   justify-content: center;
   font-family: "Open Sans", sans-serif;
@@ -481,25 +535,28 @@ p{
   font-size: 16px;
   margin-right: 270px;
 }
-.social_networks{
+
+.social_networks {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-left: 55px;
   margin-top: -40px;
 }
-.save{
+
+.save {
   display: flex;
   justify-content: center;
   margin-top: 40px;
 }
 
-.input_form{
+.input_form {
   padding: 5px;
   border: 1px solid gray;
   border-radius: 25px;
 }
-.form_btn{
+
+.form_btn {
   padding: 5px;
   border-radius: 15px;
   font-size: 13px;
@@ -509,32 +566,81 @@ p{
   border: none;
   cursor: pointer;
 }
-.form_btn:active{
+
+.form_btn:active {
   background-color: rgba(124, 120, 120, 0.321);
 }
-.form_btn:hover{
-background-color: rgba(124, 120, 120, 0.321);
+
+.form_btn:hover {
+  background-color: rgba(124, 120, 120, 0.321);
 }
-.new_arrivals{
-  width: 1450px;
+
+.new_arrivals {
+  width: 85%;
+  /* Adjusted width */
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  white-space: nowrap;
 }
-.new_arrivals .arrivals{
-  width: 100%;
+
+.new_arrivals .arrivals {
   display: flex;
-  grid-template-columns: auto auto auto;
-  grid-gap: 20px;
+  flex: 0 0 auto;
+  /* Ensures items don't shrink or grow */
+  gap: 20px;
   padding: 10px;
 }
-.new_arrivals::-webkit-scrollbar{
+
+.new_arrivals::-webkit-scrollbar {
   display: none;
+  /* Hides the scrollbar */
 }
-.controls{
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls img {
+  cursor: pointer;
+}
+
+.video-container {
+  margin: 0 auto;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
+video {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  /* Ensures video covers the entire container */
+}
 
+.overlay-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(253, 252, 252);
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
 
+.overlay-text h1 {
+  font-size: 36px;
+  /* Adjust size as needed */
+  margin: 0;
+}
+
+.overlay-text p {
+  font-size: 18px;
+  /* Adjust size as needed */
+  margin: 0;
+}
